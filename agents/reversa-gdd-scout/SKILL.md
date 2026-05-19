@@ -123,8 +123,8 @@ Para GDScript/Godot:
 - main.gd com _ready() ou _process()
 
 Para C++/Unreal:
-- **Character.cpp
-- **GameMode.cpp
+- `*Character.cpp`
+- `*GameMode.cpp`
 - MyGame.h
 
 Para JavaScript:

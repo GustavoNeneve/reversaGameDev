@@ -127,10 +127,10 @@ plugins:
             Storyteller: Storyteller
             Publisher: Publisher
             Reversa Docs: Reversa Docs
-             Reversa New: Reversa New
-             Reversa Forward: Reversa Forward
-             GDD Reverse Engineering: Engenharia Reversa de GDD
-             GDD Quick Start: GDD Início Rápido
+            Reversa New: Reversa New
+            Reversa Forward: Reversa Forward
+            GDD Reverse Engineering: Engenharia Reversa de GDD
+            GDD Quick Start: Início Rápido GDD
          - locale: es
            name: Español
            build: true

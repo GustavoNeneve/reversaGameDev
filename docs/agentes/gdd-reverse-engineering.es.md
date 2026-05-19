@@ -2,7 +2,7 @@
 
 ## Visión general
 
-El proyecto **reversaGameDev** incluye una suite de agentes para analizar código fuente de juegos y producir un **Game Design Document (GDD)** estructurado, trazable y listo para revisión técnica.
+El proyecto **Reversa** incluye una suite de agentes para analizar código fuente de juegos y producir un **Game Design Document (GDD)** estructurado, trazable y listo para revisión técnica.
 
 ## Problema que resuelve
 
@@ -105,4 +105,3 @@ Luego ejecuta:
 ```
 
 Ver también: [Inicio Rápido GDD](../gdd-quick-start.md)
-

@@ -1,6 +1,6 @@
 # Inicio Rápido GDD
 
-Usa la suite modular `reversa-gdd` para hacer ingeniería inversa de código fuente de juegos y generar un Game Design Document completo.
+Use la suite modular `reversa-gdd` para hacer ingeniería inversa de código fuente de juegos y generar un Game Design Document completo.
 
 ## 1) Instala Reversa con los agentes GDD
 
@@ -35,4 +35,3 @@ _reversa_sdd/
 
 - [Suite GDD Reverse Engineering](agentes/gdd-reverse-engineering.md)
 - [Visión general de agentes](agentes/index.md)
-
