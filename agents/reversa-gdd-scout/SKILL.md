@@ -94,7 +94,7 @@ Procure evidências de:
 
 ### 3. Linguagens Detectadas
 
-Cuente arquivos por extensão:
+Conte arquivos por extensão:
 
 | Extensão | Linguagem | Contexto Típico |
 |----------|-----------|-----------------|

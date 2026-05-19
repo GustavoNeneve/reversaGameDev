@@ -187,10 +187,10 @@ plugins:
             Storyteller: Storyteller
             Publisher: Publisher
             Reversa Docs: Reversa Docs
-             Reversa New: Reversa New
-             Reversa Forward: Reversa Forward
-             GDD Reverse Engineering: Ingeniería Inversa de GDD
-             GDD Quick Start: Inicio Rápido GDD
+            Reversa New: Reversa New
+            Reversa Forward: Reversa Forward
+            GDD Reverse Engineering: Ingeniería Inversa de GDD
+            GDD Quick Start: Inicio Rápido GDD
 
 nav:
   - Home: index.md
