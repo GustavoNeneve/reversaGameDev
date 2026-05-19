@@ -1,4 +1,4 @@
-# GDD Começo Rápido
+# GDD Início Rápido
 
 Use a suíte modular `reversa-gdd` para fazer engenharia reversa de código-fonte de jogos e gerar um Game Design Document completo.
 
@@ -35,4 +35,3 @@ _reversa_sdd/
 
 - [Suíte GDD Reverse Engineering](agentes/gdd-reverse-engineering.md)
 - [Visão geral dos agentes](agentes/index.md)
-

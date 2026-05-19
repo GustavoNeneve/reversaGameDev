@@ -130,7 +130,7 @@ plugins:
              Reversa New: Reversa New
              Reversa Forward: Reversa Forward
              GDD Reverse Engineering: Engenharia Reversa de GDD
-             GDD Quick Start: GDD Começo Rápido
+             GDD Quick Start: GDD Início Rápido
          - locale: es
            name: Español
            build: true

@@ -54,7 +54,7 @@ Pronto. O Reversa assume o volante e guia você até o fim.
 
     [:octicons-arrow-right-24: Ver pipeline](pipeline.md)
 
-- **GDD Começo Rápido**
+- **GDD Início Rápido**
 
     Faça engenharia reversa de código de jogo e gere um GDD completo com a suíte modular `reversa-gdd`.
 
