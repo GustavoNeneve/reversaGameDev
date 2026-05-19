@@ -60,6 +60,22 @@ Use when the legacy "code" is not source code, but a structured artifact like a 
 
 ---
 
+## GDD Reverse Engineering suite
+
+For game projects, Reversa includes a modular suite that reverse engineers source code and generates a complete Game Design Document.
+
+- Coordinator: [GDD Reverse Engineering](gdd-reverse-engineering.md)
+- Sub-agents used in the pipeline:
+  - `reversa-gdd-scout` (repository reconnaissance for game stacks)
+  - `reversa-gdd-analyst` (game loop, controls, physics, AI)
+  - `reversa-gdd-entities` (player, enemies, NPCs, items)
+  - `reversa-gdd-flows` (state transitions, victory/defeat, economy)
+  - `reversa-gdd-composer` (final GDD composition in Markdown)
+
+This architecture ensures the final GDD is assembled from dedicated analyses instead of a single monolithic pass.
+
+---
+
 ## Recommended sequence
 
 ```

@@ -54,6 +54,16 @@ That's it. Reversa takes the wheel and guides you to the end.
 
     [:octicons-arrow-right-24: See pipeline](pipeline.md)
 
+- **GDD Quick Start**
+
+    Reverse engineer game code and generate a complete GDD with the modular `reversa-gdd` suite.
+
+    ```bash
+    npx reversa install --agent gdd
+    ```
+
+    [:octicons-arrow-right-24: Open quick start](gdd-quick-start.md)
+
 - **Agents**
 
     5 specialized Teams: Core (always installed), Migration, Code Forward, Pricing and Translators.

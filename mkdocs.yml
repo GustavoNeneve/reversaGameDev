@@ -127,11 +127,13 @@ plugins:
             Storyteller: Storyteller
             Publisher: Publisher
             Reversa Docs: Reversa Docs
-            Reversa New: Reversa New
-            Reversa Forward: Reversa Forward
-        - locale: es
-          name: Español
-          build: true
+             Reversa New: Reversa New
+             Reversa Forward: Reversa Forward
+             GDD Reverse Engineering: Engenharia Reversa de GDD
+             GDD Quick Start: GDD Começo Rápido
+         - locale: es
+           name: Español
+           build: true
           nav_translations:
             Home: Inicio
             Why Reversa: Por qué Reversa
@@ -185,11 +187,14 @@ plugins:
             Storyteller: Storyteller
             Publisher: Publisher
             Reversa Docs: Reversa Docs
-            Reversa New: Reversa New
-            Reversa Forward: Reversa Forward
+             Reversa New: Reversa New
+             Reversa Forward: Reversa Forward
+             GDD Reverse Engineering: Ingeniería Inversa de GDD
+             GDD Quick Start: Inicio Rápido GDD
 
 nav:
   - Home: index.md
+  - GDD Quick Start: gdd-quick-start.md
   - Why Reversa: por-que-reversa.md
   - Installation: instalacao.md
   - How to use: uso.md
@@ -213,6 +218,7 @@ nav:
       - Visor: agentes/visor.md
       - Data Master: agentes/data-master.md
       - Design System: agentes/design-system.md
+      - GDD Reverse Engineering: agentes/gdd-reverse-engineering.md
     - Code New Project Agents:
       - Overview: newproject/index.md
       - The greenfield agents: newproject/agentes.md
