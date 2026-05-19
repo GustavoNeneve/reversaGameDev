@@ -194,9 +194,9 @@ plugins:
 
 nav:
   - Home: index.md
-  - GDD Quick Start: gdd-quick-start.md
   - Why Reversa: por-que-reversa.md
   - Installation: instalacao.md
+  - GDD Quick Start: gdd-quick-start.md
   - How to use: uso.md
   - CLI: cli.md
   - Configuration: configuracao.md

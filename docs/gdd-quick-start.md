@@ -35,4 +35,3 @@ _reversa_sdd/
 
 - [GDD Reverse Engineering suite](agentes/gdd-reverse-engineering.md)
 - [Agents overview](agentes/index.md)
-
