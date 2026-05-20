@@ -60,6 +60,12 @@ Use when the legacy "code" is not source code, but a structured artifact like a 
 
 ---
 
+## Eco estimation
+
+`reversa-eco` is a standalone agent for estimating the water footprint of AI usage from tokens, words, characters or reference prompts. It writes `_reversa_sdd/_eco/eco.{json,md}` and compares the result with YouTube reference ranges.
+
+---
+
 ## GDD Reverse Engineering suite
 
 For game projects, Reversa includes a modular suite that reverse engineers source code and generates a complete Game Design Document.

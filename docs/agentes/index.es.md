@@ -54,6 +54,12 @@ Use cuando el "código" heredado no sea código fuente, sino un artefacto estruc
 
 ---
 
+## Estimación eco
+
+`reversa-eco` es un agente independiente para estimar la huella hídrica del uso de IA a partir de tokens, palabras, caracteres o prompts de referencia. Escribe `_reversa_sdd/_eco/eco.{json,md}` y compara el resultado con rangos de referencia de YouTube.
+
+---
+
 ## Suite de Ingeniería Inversa de GDD
 
 Para proyectos de juegos, Reversa incluye una suite modular que hace ingeniería inversa del código fuente y genera un Game Design Document completo.
