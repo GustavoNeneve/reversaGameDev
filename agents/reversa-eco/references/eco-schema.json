@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reversa Eco Estimate",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "formula_version",
+    "created_at",
+    "input_basis",
+    "input_value",
+    "normalized_tokens",
+    "estimated_words",
+    "estimated_characters",
+    "reference_prompt_equivalents",
+    "constants",
+    "results",
+    "notes"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "formula_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "input_basis": {
+      "type": "string",
+      "enum": ["tokens", "palavras", "caracteres", "prompts"]
+    },
+    "input_value": {
+      "type": "number",
+      "minimum": 0
+    },
+    "normalized_tokens": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "estimated_words": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "estimated_characters": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "reference_prompt_equivalents": {
+      "type": "number",
+      "minimum": 0
+    },
+    "constants": {
+      "type": "object",
+      "required": [
+        "water_ml_per_prompt",
+        "tokens_per_reference_prompt",
+        "youtube_15min_l_min",
+        "youtube_15min_l_max",
+        "youtube_1h_l_min",
+        "youtube_1h_l_max",
+        "email_ml"
+      ],
+      "properties": {
+        "water_ml_per_prompt": { "type": "number" },
+        "tokens_per_reference_prompt": { "type": "integer" },
+        "youtube_15min_l_min": { "type": "number" },
+        "youtube_15min_l_max": { "type": "number" },
+        "youtube_1h_l_min": { "type": "number" },
+        "youtube_1h_l_max": { "type": "number" },
+        "email_ml": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "results": {
+      "type": "object",
+      "required": [
+        "water_ml",
+        "water_l",
+        "email_equivalents",
+        "youtube_15min_pct_if_1l",
+        "youtube_15min_pct_if_3l",
+        "youtube_1h_pct_if_2l",
+        "youtube_1h_pct_if_12l",
+        "tokens_to_match_youtube_15min_1l",
+        "tokens_to_match_youtube_15min_3l",
+        "tokens_to_match_youtube_1h_2l",
+        "tokens_to_match_youtube_1h_12l"
+      ],
+      "properties": {
+        "water_ml": { "type": "number", "minimum": 0 },
+        "water_l": { "type": "number", "minimum": 0 },
+        "email_equivalents": { "type": "number", "minimum": 0 },
+        "youtube_15min_pct_if_1l": { "type": "number", "minimum": 0 },
+        "youtube_15min_pct_if_3l": { "type": "number", "minimum": 0 },
+        "youtube_1h_pct_if_2l": { "type": "number", "minimum": 0 },
+        "youtube_1h_pct_if_12l": { "type": "number", "minimum": 0 },
+        "tokens_to_match_youtube_15min_1l": { "type": "integer", "minimum": 0 },
+        "tokens_to_match_youtube_15min_3l": { "type": "integer", "minimum": 0 },
+        "tokens_to_match_youtube_1h_2l": { "type": "integer", "minimum": 0 },
+        "tokens_to_match_youtube_1h_12l": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

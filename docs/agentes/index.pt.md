@@ -60,6 +60,28 @@ Use quando o "código" legado não for código-fonte, e sim um artefato estrutur
 
 ---
 
+## Estimativa eco
+
+`reversa-eco` é um agente independente para estimar a pegada hídrica de uso de IA a partir de tokens, palavras, caracteres ou prompts de referência. Ele grava `_reversa_sdd/_eco/eco.{json,md}` e compara o resultado com faixas de referência do YouTube.
+
+---
+
+## Suíte de Engenharia Reversa de GDD
+
+Para projetos de jogos, o Reversa inclui uma suíte modular que faz engenharia reversa do código-fonte e gera um Game Design Document completo.
+
+- Coordenador: [GDD Reverse Engineering](gdd-reverse-engineering.md)
+- Subagentes usados no pipeline:
+  - `reversa-gdd-scout` (reconhecimento do repositório e stack de jogo)
+  - `reversa-gdd-analyst` (game loop, controles, física e IA)
+  - `reversa-gdd-entities` (player, inimigos, NPCs e itens)
+  - `reversa-gdd-flows` (transições de estado, vitória/derrota e economia)
+  - `reversa-gdd-composer` (composição final do GDD em Markdown)
+
+Essa arquitetura garante que o GDD final seja montado a partir de análises especializadas, e não de uma única etapa monolítica.
+
+---
+
 ## Sequência recomendada
 
 ```

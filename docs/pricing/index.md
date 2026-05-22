@@ -46,3 +46,5 @@ _reversa_sdd/_pricing/
 ```
 
 The Pricing and Size Agents never modify legacy code, Discovery artifacts or Forward artifacts. They only read those and write inside `_pricing/`.
+
+Important: `reversa-pricing-size` does not count tokens or LOC. For token based water estimation and YouTube comparison, use the standalone agent `/reversa-eco`.

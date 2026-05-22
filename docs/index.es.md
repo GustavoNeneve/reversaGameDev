@@ -54,6 +54,16 @@ Eso es todo. Reversa toma el volante y te guía hasta el final.
 
     [:octicons-arrow-right-24: Ver pipeline](pipeline.md)
 
+- **Inicio Rápido GDD**
+
+    Realice ingeniería inversa de código de juego y genere un GDD completo con la suite modular `reversa-gdd`.
+
+    ```bash
+    npx reversa install --agent gdd
+    ```
+
+    [:octicons-arrow-right-24: Abrir guía](gdd-quick-start.md)
+
 - **Agentes**
 
     5 Teams especializados: Core (siempre instalado), Migration, Code Forward, Pricing y Translators.

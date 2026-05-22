@@ -46,3 +46,5 @@ _reversa_sdd/_pricing/
 ```
 
 Los Pricing and Size Agents nunca modifican código legado, artefactos del Discovery ni del Forward. Solo los leen y escriben dentro de `_pricing/`.
+
+Importante: `reversa-pricing-size` no cuenta tokens ni LOC. Para estimación de agua basada en tokens y comparación con YouTube, usa el agente independiente `/reversa-eco`.

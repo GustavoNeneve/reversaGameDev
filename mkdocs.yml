@@ -129,9 +129,12 @@ plugins:
             Reversa Docs: Reversa Docs
             Reversa New: Reversa New
             Reversa Forward: Reversa Forward
-        - locale: es
-          name: Español
-          build: true
+            GDD Reverse Engineering: Engenharia Reversa de GDD
+            GDD Quick Start: Início Rápido GDD
+            Eco Water Estimator: Estimador Eco de Água
+         - locale: es
+           name: Español
+           build: true
           nav_translations:
             Home: Inicio
             Why Reversa: Por qué Reversa
@@ -187,11 +190,15 @@ plugins:
             Reversa Docs: Reversa Docs
             Reversa New: Reversa New
             Reversa Forward: Reversa Forward
+            GDD Reverse Engineering: Ingeniería Inversa de GDD
+            GDD Quick Start: Inicio Rápido GDD
+            Eco Water Estimator: Estimador Eco de Agua
 
 nav:
   - Home: index.md
   - Why Reversa: por-que-reversa.md
   - Installation: instalacao.md
+  - GDD Quick Start: gdd-quick-start.md
   - How to use: uso.md
   - CLI: cli.md
   - Configuration: configuracao.md
@@ -213,6 +220,8 @@ nav:
       - Visor: agentes/visor.md
       - Data Master: agentes/data-master.md
       - Design System: agentes/design-system.md
+      - GDD Reverse Engineering: agentes/gdd-reverse-engineering.md
+      - Eco Water Estimator: agentes/eco.md
     - Code New Project Agents:
       - Overview: newproject/index.md
       - The greenfield agents: newproject/agentes.md
